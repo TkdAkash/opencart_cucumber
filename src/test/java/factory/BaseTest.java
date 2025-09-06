@@ -3,6 +3,7 @@ package factory;
 import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
+import java.net.URL;
 import java.text.SimpleDateFormat;
 import java.time.Duration;
 import java.util.Date;
@@ -12,6 +13,7 @@ import org.apache.commons.text.RandomStringGenerator;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.OutputType;
+import org.openqa.selenium.Platform;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -19,6 +21,8 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.edge.EdgeOptions;
 import org.openqa.selenium.firefox.FirefoxOptions;
+import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
@@ -44,19 +48,59 @@ public class BaseTest {
 		p.load(confilgFile);
 		logger = LogManager.getLogger(this.getClass());
 
-		switch (br.toLowerCase()) {
-		case "chrome":
-			chromeOptions = new ChromeOptions();
-			chromeOptions.addArguments("--start-maximized");
-			driver = new ChromeDriver(chromeOptions);
-			break;
-		case "edge":
-			edgeOptions = new EdgeOptions();
-			edgeOptions.addArguments("--start-maximized");
-			driver = new EdgeDriver(edgeOptions);
-		default:
-			System.out.println("Invalid browser...");
-			break;
+		if (p.getProperty("execution_env").equalsIgnoreCase("reomte")) {
+
+			DesiredCapabilities cp = new DesiredCapabilities();
+
+			switch (os.toLowerCase()) {
+			case "window":
+				cp.setPlatform(Platform.WIN11);
+				break;
+			case "mac":
+				cp.setPlatform(Platform.MAC);
+				break;
+			case "linux":
+				cp.setPlatform(Platform.LINUX);
+				break;
+			default:
+				System.out.println("No os matching");
+				break;
+			}
+
+			switch (br.toLowerCase()) {
+			case "chrome":
+				cp.setBrowserName("chrome");
+				break;
+			case "edge":
+				cp.setBrowserName("MicrosoftEdge");
+				break;
+			case "linux":
+				cp.setBrowserName("firefox");
+				break;
+
+			default:
+				System.out.println("No browser matching");
+				return;
+			}
+
+			driver = new RemoteWebDriver(new URL("http://localhost:8080"), cp);
+
+		} else if (p.getProperty("execution_env").equalsIgnoreCase("local")) {
+
+			switch (br.toLowerCase()) {
+			case "chrome":
+				chromeOptions = new ChromeOptions();
+				chromeOptions.addArguments("--start-maximized");
+				driver = new ChromeDriver(chromeOptions);
+				break;
+			case "edge":
+				edgeOptions = new EdgeOptions();
+				edgeOptions.addArguments("--start-maximized");
+				driver = new EdgeDriver(edgeOptions);
+			default:
+				System.out.println("Invalid browser...");
+				break;
+			}
 		}
 
 		driver.get(p.getProperty("appUrl"));
@@ -77,20 +121,20 @@ public class BaseTest {
 	public String randomAlphaNumeric() {
 		return new RandomStringGenerator.Builder().withinRange('0', 'z').get().generate(8);
 	}
-	
+
 	public String caputureScreen(String tname) {
-		
+
 		String timeStamp = new SimpleDateFormat("yy.MM.dd.mm.HH.ss").format(new Date());
-		
+
 		TakesScreenshot ts = (TakesScreenshot) driver;
 		File sourceFile = ts.getScreenshotAs(OutputType.FILE);
-		
-		String targetFilePath = System.getProperty("user.dir")+"//screenshots//"+tname+"_"+timeStamp+".png";
+
+		String targetFilePath = System.getProperty("user.dir") + "//screenshots//" + tname + "_" + timeStamp + ".png";
 		File targetFile = new File(targetFilePath);
 		sourceFile.renameTo(targetFile);
-		
+
 		return targetFilePath;
-		
+
 	}
 
 	@AfterClass(groups = { "sanity", "regression", "master" })
