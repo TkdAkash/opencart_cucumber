@@ -9,7 +9,7 @@ import pageObject.HomePage;
 
 public class TC001_AccountRegisterationTest extends BaseTest{
 
-	@Test
+	@Test(groups = {"sanity","master"})
 	public void LoginTest() {
 		
 		logger.info("***** Starting TC001_AccountRegisterationTest *****");

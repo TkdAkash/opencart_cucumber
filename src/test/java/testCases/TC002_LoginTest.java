@@ -10,7 +10,7 @@ import pageObject.MyAccountPage;
 
 public class TC002_LoginTest extends BaseTest {
 
-	@Test
+	@Test(groups = {"regression","master"})
 	public void verify_Login() {
 
 		logger.info("***** Starting verify_Login *****");

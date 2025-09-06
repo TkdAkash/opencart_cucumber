@@ -3,6 +3,11 @@
 <suite name="Suite">
 	<test name="chromeTest">
 		<parameter name="browser" value="chrome" />
+		<groups>
+			<run>
+				<include name="sanity" />
+			</run>
+		</groups>
 		<classes>
 			<class name="testCases.TC002_LoginTest" />
 		</classes>
@@ -10,6 +15,11 @@
 
 	<test name="edgeTest">
 		<parameter name="browser" value="edge" />
+		<groups>
+			<run>
+				<include name="sanity" />
+			</run>
+		</groups>
 		<classes>
 			<class name="testCases.TC002_LoginTest" />
 		</classes>

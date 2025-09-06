@@ -1,13 +1,18 @@
 package factory;
 
+import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
+import java.text.SimpleDateFormat;
 import java.time.Duration;
+import java.util.Date;
 import java.util.Properties;
 
 import org.apache.commons.text.RandomStringGenerator;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -18,6 +23,8 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
 
+import com.networknt.schema.format.DateTimeFormat;
+
 public class BaseTest {
 
 	public static WebDriver driver;
@@ -27,9 +34,9 @@ public class BaseTest {
 	public static Logger logger;
 	public static Properties p;
 
-	@BeforeClass
-	@Parameters({ "browser","os" })
-	public void setup(String br,String os) throws IOException {
+	@BeforeClass(groups = { "sanity", "regression", "master" })
+	@Parameters({ "browser", "os" })
+	public void setup(String br, String os) throws IOException {
 
 		FileReader confilgFile = new FileReader(
 				System.getProperty("user.dir") + "//src//test//resources//config.properties");
@@ -47,7 +54,8 @@ public class BaseTest {
 			edgeOptions = new EdgeOptions();
 			edgeOptions.addArguments("--start-maximized");
 			driver = new EdgeDriver(edgeOptions);
-		default: System.out.println("Invalid browser...");
+		default:
+			System.out.println("Invalid browser...");
 			break;
 		}
 
@@ -69,8 +77,23 @@ public class BaseTest {
 	public String randomAlphaNumeric() {
 		return new RandomStringGenerator.Builder().withinRange('0', 'z').get().generate(8);
 	}
+	
+	public String caputureScreen(String tname) {
+		
+		String timeStamp = new SimpleDateFormat("yy.MM.dd.mm.HH.ss").format(new Date());
+		
+		TakesScreenshot ts = (TakesScreenshot) driver;
+		File sourceFile = ts.getScreenshotAs(OutputType.FILE);
+		
+		String targetFilePath = System.getProperty("user.dir")+"//screenshots//"+tname+"_"+timeStamp+".png";
+		File targetFile = new File(targetFilePath);
+		sourceFile.renameTo(targetFile);
+		
+		return targetFilePath;
+		
+	}
 
-	@AfterClass
+	@AfterClass(groups = { "sanity", "regression", "master" })
 	public void tearDown() {
 		driver.close();
 	}
