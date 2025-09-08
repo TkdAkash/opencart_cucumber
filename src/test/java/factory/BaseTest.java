@@ -48,7 +48,7 @@ public class BaseTest {
 		p.load(confilgFile);
 		logger = LogManager.getLogger(this.getClass());
 
-		if (p.getProperty("execution_env").equalsIgnoreCase("reomte")) {
+		if (p.getProperty("execution_env").equalsIgnoreCase("remote")) {
 
 			DesiredCapabilities cp = new DesiredCapabilities();
 
@@ -83,7 +83,7 @@ public class BaseTest {
 				return;
 			}
 
-			driver = new RemoteWebDriver(new URL("http://localhost:8080/wd/hub"), cp);
+			driver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), cp);
 
 		} else if (p.getProperty("execution_env").equalsIgnoreCase("local")) {
 
@@ -101,11 +101,13 @@ public class BaseTest {
 				System.out.println("Invalid browser...");
 				break;
 			}
+		}else {
+			System.out.println("Invalid environment");
 		}
 
 		driver.get(p.getProperty("appUrl"));
 //		driver.get("https://tutorialsninja.com/demo/");
-//		driver.manage().window().maximize();
+		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
 
 	}

@@ -9,17 +9,17 @@
     <parameter name="browser" value="chrome"/>
     <groups>
       <run>
-        <include name="dataProvider"/>
+        <include name="master"/>
       </run>
     </groups>
     <classes>
-      <class name="testCases.TC003_DDTLoginTest">
+      <class name="testCases.TC001_AccountRegisterationTest">
         <methods>
-          <include name="verify_Login" invocation-numbers="2 3"/>
+          <include name="LoginTest"/>
           <include name="setup"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- testCases.TC003_DDTLoginTest -->
+      </class> <!-- testCases.TC001_AccountRegisterationTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

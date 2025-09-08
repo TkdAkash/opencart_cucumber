@@ -6,4 +6,7 @@ C:\Users\akash\Selenium_Cognizant\opencart_cucumber\src\test\java\pageObject\Log
 C:\Users\akash\Selenium_Cognizant\opencart_cucumber\src\test\java\pageObject\MyAccountPage.java
 C:\Users\akash\Selenium_Cognizant\opencart_cucumber\src\test\java\testCases\TC001_AccountRegisterationTest.java
 C:\Users\akash\Selenium_Cognizant\opencart_cucumber\src\test\java\testCases\TC002_LoginTest.java
+C:\Users\akash\Selenium_Cognizant\opencart_cucumber\src\test\java\testCases\TC003_DDTLoginTest.java
+C:\Users\akash\Selenium_Cognizant\opencart_cucumber\src\test\java\utilities\DataProviderManager.java
 C:\Users\akash\Selenium_Cognizant\opencart_cucumber\src\test\java\utilities\ExtentReportManager.java
+C:\Users\akash\Selenium_Cognizant\opencart_cucumber\src\test\java\utilities\xlUtility.java

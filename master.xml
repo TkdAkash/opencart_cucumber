@@ -9,7 +9,7 @@
 		<parameter name="os" value="window" />
 		<groups>
 			<run>
-				<include name="dataProvider" />
+				<include name="master" />
 			</run>
 		</groups>
 		<classes>
