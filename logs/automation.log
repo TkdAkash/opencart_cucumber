@@ -1,7 +1,1 @@
-2025-09-06 19:04:58 INFO  TC002_LoginTest:44 - ***** Finished verify_Login *****
-2025-09-06 19:05:00 TRACE Graph:52 - [Graph] ADDING NODE TC001_AccountRegisterationTest.LoginTest()[pri:0, instance:testCases.TC001_AccountRegisterationTest@7103cb56] -874632147
-2025-09-06 19:05:00 TRACE Graph:52 - [Graph] ADDING NODE TC002_LoginTest.verify_Login()[pri:0, instance:testCases.TC002_LoginTest@674bd420] -466935168
-2025-09-06 19:05:00 TRACE Graph:52 - [Graph] ================ SORTING
-2025-09-06 19:05:00 TRACE Graph:52 - [Graph] =============== DONE SORTING
-2025-09-06 19:05:00 TRACE Graph:52 - [Graph] ====== SORTED NODES
-2025-09-06 19:05:00 TRACE Graph:52 - [Graph] ====== END SORTED NODES
+2025-09-08 15:42:35 INFO  TC003_DDTLoginTest:45 - ***** Finished verify_Login *****
