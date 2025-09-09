@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="TestSuite" time="49.587" tests="5" errors="0" skipped="0" failures="2">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="TestSuite" time="39.883" tests="2" errors="0" skipped="0" failures="1">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17\bin"/>
-    <property name="sun.java.command" value="C:\Users\akash\AppData\Local\Temp\surefire6345759084107645998\surefirebooter-20250908190632961_3.jar C:\Users\akash\AppData\Local\Temp\surefire6345759084107645998 2025-09-08T19-06-32_718-jvmRun1 surefire-20250908190632961_1tmp surefire_0-20250908190632961_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\akash\AppData\Local\Temp\surefire10188580921340392290\surefirebooter-20250909165708023_3.jar C:\Users\akash\AppData\Local\Temp\surefire10188580921340392290 2025-09-09T16-57-07_821-jvmRun1 surefire-20250909165708023_1tmp surefire_0-20250909165708023_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\akash\Selenium_Cognizant\opencart_cucumber\target\test-classes;C:\Users\akash\Selenium_Cognizant\opencart_cucumber\target\classes;C:\Users\akash\.m2\repository\org\seleniumhq\selenium\selenium-java\4.35.0\selenium-java-4.35.0.jar;C:\Users\akash\.m2\repository\org\seleniumhq\selenium\selenium-api\4.35.0\selenium-api-4.35.0.jar;C:\Users\akash\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\akash\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.35.0\selenium-chrome-driver-4.35.0.jar;C:\Users\akash\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\akash\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.35.0\selenium-chromium-driver-4.35.0.jar;C:\Users\akash\.m2\repository\org\seleniumhq\selenium\selenium-json\4.35.0\selenium-json-4.35.0.jar;C:\Users\akash\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.35.0\selenium-manager-4.35.0.jar;C:\Users\akash\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v137\4.35.0\selenium-devtools-v137-4.35.0.jar;C:\Users\akash\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v138\4.35.0\selenium-devtools-v138-4.35.0.jar;C:\Users\akash\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v139\4.35.0\selenium-devtools-v139-4.35.0.jar;C:\Users\akash\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.35.0\selenium-edge-driver-4.35.0.jar;C:\Users\akash\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.35.0\selenium-firefox-driver-4.35.0.jar;C:\Users\akash\.m2\repository\org\seleniumhq\selenium\selenium-http\4.35.0\selenium-http-4.35.0.jar;C:\Users\akash\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.35.0\selenium-ie-driver-4.35.0.jar;C:\Users\akash\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.35.0\selenium-remote-driver-4.35.0.jar;C:\Users\akash\.m2\repository\com\google\guava\guava\33.4.8-jre\guava-33.4.8-jre.jar;C:\Users\akash\.m2\repository\com\google\guava\failureaccess\1.0.3\failureaccess-1.0.3.jar;C:\Users\akash\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\akash\.m2\repository\com\google\errorprone\error_prone_annotations\2.36.0\error_prone_annotations-2.36.0.jar;C:\Users\akash\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\akash\.m2\repository\io\opentelemetry\opentelemetry-api\1.53.0\opentelemetry-api-1.53.0.jar;C:\Users\akash\.m2\repository\io\opentelemetry\opentelemetry-context\1.53.0\opentelemetry-context-1.53.0.jar;C:\Users\akash\.m2\repository\io\opentelemetry\opentelemetry-common\1.53.0\opentelemetry-common-1.53.0.jar;C:\Users\akash\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.53.0\opentelemetry-exporter-logging-1.53.0.jar;C:\Users\akash\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.53.0\opentelemetry-sdk-common-1.53.0.jar;C:\Users\akash\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.53.0\opentelemetry-sdk-extension-autoconfigure-spi-1.53.0.jar;C:\Users\akash\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.53.0\opentelemetry-sdk-extension-autoconfigure-1.53.0.jar;C:\Users\akash\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.53.0\opentelemetry-sdk-trace-1.53.0.jar;C:\Users\akash\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.53.0\opentelemetry-sdk-1.53.0.jar;C:\Users\akash\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.53.0\opentelemetry-sdk-metrics-1.53.0.jar;C:\Users\akash\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.53.0\opentelemetry-sdk-logs-1.53.0.jar;C:\Users\akash\.m2\repository\net\bytebuddy\byte-buddy\1.17.6\byte-buddy-1.17.6.jar;C:\Users\akash\.m2\repository\org\seleniumhq\selenium\selenium-os\4.35.0\selenium-os-4.35.0.jar;C:\Users\akash\.m2\repository\org\apache\commons\commons-exec\1.5.0\commons-exec-1.5.0.jar;C:\Users\akash\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.35.0\selenium-safari-driver-4.35.0.jar;C:\Users\akash\.m2\repository\org\seleniumhq\selenium\selenium-support\4.35.0\selenium-support-4.35.0.jar;C:\Users\akash\.m2\repository\io\cucumber\cucumber-java\7.28.0\cucumber-java-7.28.0.jar;C:\Users\akash\.m2\repository\io\cucumber\cucumber-core\7.28.0\cucumber-core-7.28.0.jar;C:\Users\akash\.m2\repository\io\cucumber\cucumber-gherkin\7.28.0\cucumber-gherkin-7.28.0.jar;C:\Users\akash\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.28.0\cucumber-gherkin-messages-7.28.0.jar;C:\Users\akash\.m2\repository\io\cucumber\gherkin\34.0.0\gherkin-34.0.0.jar;C:\Users\akash\.m2\repository\org\assertj\assertj-core\3.27.4\assertj-core-3.27.4.jar;C:\Users\akash\.m2\repository\io\cucumber\messages\28.1.0\messages-28.1.0.jar;C:\Users\akash\.m2\repository\io\cucumber\pretty-formatter\2.1.0\pretty-formatter-2.1.0.jar;C:\Users\akash\.m2\repository\io\cucumber\query\13.6.0\query-13.6.0.jar;C:\Users\akash\.m2\repository\io\cucumber\testng-xml-formatter\0.5.0\testng-xml-formatter-0.5.0.jar;C:\Users\akash\.m2\repository\io\cucumber\tag-expressions\6.1.2\tag-expressions-6.1.2.jar;C:\Users\akash\.m2\repository\io\cucumber\cucumber-expressions\18.0.1\cucumber-expressions-18.0.1.jar;C:\Users\akash\.m2\repository\io\cucumber\cucumber-json-formatter\0.1.1\cucumber-json-formatter-0.1.1.jar;C:\Users\akash\.m2\repository\com\networknt\json-schema-validator\1.5.8\json-schema-validator-1.5.8.jar;C:\Users\akash\.m2\repository\com\ethlo\time\itu\1.10.3\itu-1.10.3.jar;C:\Users\akash\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.18.3\jackson-databind-2.18.3.jar;C:\Users\akash\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.18.3\jackson-annotations-2.18.3.jar;C:\Users\akash\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.18.3\jackson-core-2.18.3.jar;C:\Users\akash\.m2\repository\com\fasterxml\jackson\dataformat\jackson-dataformat-yaml\2.18.3\jackson-dataformat-yaml-2.18.3.jar;C:\Users\akash\.m2\repository\io\cucumber\datatable\7.28.0\datatable-7.28.0.jar;C:\Users\akash\.m2\repository\io\cucumber\cucumber-plugin\7.28.0\cucumber-plugin-7.28.0.jar;C:\Users\akash\.m2\repository\io\cucumber\docstring\7.28.0\docstring-7.28.0.jar;C:\Users\akash\.m2\repository\io\cucumber\html-formatter\21.13.0\html-formatter-21.13.0.jar;C:\Users\akash\.m2\repository\io\cucumber\junit-xml-formatter\0.8.1\junit-xml-formatter-0.8.1.jar;C:\Users\akash\.m2\repository\io\cucumber\ci-environment\10.0.1\ci-environment-10.0.1.jar;C:\Users\akash\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\akash\.m2\repository\io\cucumber\cucumber-junit\7.28.0\cucumber-junit-7.28.0.jar;C:\Users\akash\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\akash\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\akash\.m2\repository\org\apache\logging\log4j\log4j-api\2.25.1\log4j-api-2.25.1.jar;C:\Users\akash\.m2\repository\org\apache\logging\log4j\log4j-core\2.25.1\log4j-core-2.25.1.jar;C:\Users\akash\.m2\repository\org\apache\logging\log4j\log4j-slf4j2-impl\2.25.1\log4j-slf4j2-impl-2.25.1.jar;C:\Users\akash\.m2\repository\org\slf4j\slf4j-api\2.0.17\slf4j-api-2.0.17.jar;C:\Users\akash\.m2\repository\org\apache\poi\poi\5.4.1\poi-5.4.1.jar;C:\Users\akash\.m2\repository\commons-codec\commons-codec\1.18.0\commons-codec-1.18.0.jar;C:\Users\akash\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\akash\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\akash\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\akash\.m2\repository\org\apache\poi\poi-ooxml\5.4.1\poi-ooxml-5.4.1.jar;C:\Users\akash\.m2\repository\org\apache\poi\poi-ooxml-lite\5.4.1\poi-ooxml-lite-5.4.1.jar;C:\Users\akash\.m2\repository\org\apache\xmlbeans\xmlbeans\5.3.0\xmlbeans-5.3.0.jar;C:\Users\akash\.m2\repository\org\apache\commons\commons-compress\1.27.1\commons-compress-1.27.1.jar;C:\Users\akash\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar;C:\Users\akash\.m2\repository\commons-io\commons-io\2.20.0\commons-io-2.20.0.jar;C:\Users\akash\.m2\repository\org\apache\commons\commons-lang3\3.18.0\commons-lang3-3.18.0.jar;C:\Users\akash\.m2\repository\org\apache\commons\commons-text\1.14.0\commons-text-1.14.0.jar;C:\Users\akash\.m2\repository\tech\grasshopper\extentreports-cucumber7-adapter\1.14.0\extentreports-cucumber7-adapter-1.14.0.jar;C:\Users\akash\.m2\repository\com\aventstack\extentreports\5.1.0\extentreports-5.1.0.jar;C:\Users\akash\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\akash\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\akash\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\akash\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\akash\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\akash\.m2\repository\tech\grasshopper\extent-pdf-report\2.12.0\extent-pdf-report-2.12.0.jar;C:\Users\akash\.m2\repository\tech\grasshopper\cucumber-pdf-report\2.14.0\cucumber-pdf-report-2.14.0.jar;C:\Users\akash\.m2\repository\org\apache\pdfbox\pdfbox\2.0.26\pdfbox-2.0.26.jar;C:\Users\akash\.m2\repository\org\apache\pdfbox\fontbox\2.0.26\fontbox-2.0.26.jar;C:\Users\akash\.m2\repository\org\knowm\xchart\xchart\3.8.0\xchart-3.8.0.jar;C:\Users\akash\.m2\repository\de\erichseifert\vectorgraphics2d\VectorGraphics2D\0.13\VectorGraphics2D-0.13.jar;C:\Users\akash\.m2\repository\de\rototor\pdfbox\graphics2d\0.30\graphics2d-0.30.jar;C:\Users\akash\.m2\repository\com\madgag\animated-gif-lib\1.4\animated-gif-lib-1.4.jar;C:\Users\akash\.m2\repository\org\yaml\snakeyaml\2.0\snakeyaml-2.0.jar;C:\Users\akash\.m2\repository\tech\grasshopper\table-layout\1.5.1\table-layout-1.5.1.jar;C:\Users\akash\.m2\repository\tech\grasshopper\rest-assured-cucumber-pdf-report\1.5.0\rest-assured-cucumber-pdf-report-1.5.0.jar;C:\Users\akash\.m2\repository\org\jsoup\jsoup\1.15.3\jsoup-1.15.3.jar;C:\Users\akash\.m2\repository\com\aventstack\klov-reporter\5.1.0\klov-reporter-5.1.0.jar;C:\Users\akash\.m2\repository\org\mongodb\mongodb-driver\3.6.4\mongodb-driver-3.6.4.jar;C:\Users\akash\.m2\repository\org\mongodb\mongodb-driver-core\3.6.4\mongodb-driver-core-3.6.4.jar;C:\Users\akash\.m2\repository\org\mongodb\bson\3.6.4\bson-3.6.4.jar;C:\Users\akash\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\akash\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\akash\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\akash\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\akash\.m2\repository\tech\grasshopper\htmlextentreporter\1.1.0\htmlextentreporter-1.1.0.jar;C:\Users\akash\.m2\repository\tech\grasshopper\extent-excel-report\1.4.0\extent-excel-report-1.4.0.jar;C:\Users\akash\.m2\repository\org\testng\testng\7.11.0\testng-7.11.0.jar;C:\Users\akash\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\akash\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -26,12 +26,13 @@
     <property name="java.version.date" value="2023-10-17"/>
     <property name="java.home" value="C:\Program Files\Java\jdk-17"/>
     <property name="file.separator" value="\"/>
+    <property name="style.color" value="always"/>
     <property name="basedir" value="C:\Users\akash\Selenium_Cognizant\opencart_cucumber"/>
     <property name="java.vm.compressedOopsMode" value="32-bit"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\akash\AppData\Local\Temp\surefire6345759084107645998\surefirebooter-20250908190632961_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\akash\AppData\Local\Temp\surefire10188580921340392290\surefirebooter-20250909165708023_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.9+11-LTS-201"/>
@@ -50,285 +51,134 @@
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="native.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk-17\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\System32;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\ProgramData\chocolatey\bin;C:\Users\akash\AppData\Local\Programs\Python\Python39\Scripts;C:\Users\akash\AppData\Local\Programs\Python\Python39;C:\Users\akash\Desktop\exp7\sonar-scanner-cli-4.6.2.2472-windows.zip\sonar-scanner-4.6.2.2472-windows\bin;C:\xampp\php;C:\ProgramData\ComposerSetup\bin;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Java\jdk-17\bin;C:\Program Files\Git\cmd;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\apache-maven-3.9.11\bin;C:\Program Files\Java\jdk-18.0.2\bin;C:\Program Files\JetBrains\PyCharm Community Edition 2020.3.3\bin;C:\Users\akash\AppData\Local\Programs\Microsoft VS Code\bin;C:\Windows\SysWow64\;ChocolateyLastPathUpdate 132616659215868700;C:\Users\akash\AppData\Roaming\Composer\vendor\bin;C:\Program Files\MongoDB\Server\5.0\bin;C:\src\flutter\bin;C:\Windows\System32\WindowsPowerShell\v1.0;C:\MinGW\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2\bin;C:\Users\akash\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Azure Data Studio\bin;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-17\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\System32;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\ProgramData\chocolatey\bin;C:\Users\akash\AppData\Local\Programs\Python\Python39\Scripts;C:\Users\akash\AppData\Local\Programs\Python\Python39;C:\Users\akash\Desktop\exp7\sonar-scanner-cli-4.6.2.2472-windows.zip\sonar-scanner-4.6.2.2472-windows\bin;C:\xampp\php;C:\ProgramData\ComposerSetup\bin;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Java\jdk-17\bin;C:\Program Files\Git\cmd;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\apache-maven-3.9.11\bin;C:\Program Files\Java\jdk-18.0.2\bin;C:\Windows\System32;C:\Program Files\JetBrains\PyCharm Community Edition 2020.3.3\bin;;C:\Users\akash\AppData\Local\Programs\Python\Python39\Scripts;C:\Users\akash\AppData\Local\Programs\Python\Python39;C:\Users\akash\AppData\Local\Programs\Microsoft VS Code\bin;C:\Windows\SysWow64\;ChocolateyLastPathUpdate 132616659215868700;C:\Users\akash\AppData\Roaming\Composer\vendor\bin;C:\Program Files\MongoDB\Server\5.0\bin;C:\src\flutter\bin;C:\Windows\System32\WindowsPowerShell\v1.0;C:\MinGW\bin;;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2\bin;;C:\Users\akash\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Azure Data Studio\bin;."/>
     <property name="java.vm.info" value="mixed mode, sharing"/>
     <property name="java.vendor" value="Oracle Corporation"/>
     <property name="java.vm.version" value="17.0.9+11-LTS-201"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="verify_Login[abababnc@gmail.com, 1234, Valid](1)" classname="testCases.TC003_DDTLoginTest" time="2.217">
-    <system-out><![CDATA[2025-09-08 19:06:34 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\akash\Selenium_Cognizant\opencart_cucumber\master.xml"
-2025-09-08 19:06:34 TRACE Graph:52 - [Graph] ADDING NODE BaseTest.setup(java.lang.String,java.lang.String)[pri:0, instance:null] -1308580327
-2025-09-08 19:06:34 TRACE Graph:52 - [Graph] ================ SORTING
-2025-09-08 19:06:34 TRACE Graph:52 - [Graph] =============== DONE SORTING
-2025-09-08 19:06:34 TRACE Graph:52 - [Graph] ====== SORTED NODES
-2025-09-08 19:06:34 TRACE Graph:52 - [Graph] ====== END SORTED NODES
-2025-09-08 19:06:34 TRACE Graph:52 - [Graph] ADDING NODE BaseTest.tearDown()[pri:0, instance:null] 676218306
-2025-09-08 19:06:34 TRACE Graph:52 - [Graph] ================ SORTING
-2025-09-08 19:06:34 TRACE Graph:52 - [Graph] =============== DONE SORTING
-2025-09-08 19:06:34 TRACE Graph:52 - [Graph] ====== SORTED NODES
-2025-09-08 19:06:34 TRACE Graph:52 - [Graph] ====== END SORTED NODES
-2025-09-08 19:06:34 TRACE Graph:52 - [Graph] ADDING NODE BaseTest.setup(java.lang.String,java.lang.String)[pri:0, instance:null] -1308580327
-2025-09-08 19:06:34 TRACE Graph:52 - [Graph] ================ SORTING
-2025-09-08 19:06:34 TRACE Graph:52 - [Graph] =============== DONE SORTING
-2025-09-08 19:06:34 TRACE Graph:52 - [Graph] ====== SORTED NODES
-2025-09-08 19:06:34 TRACE Graph:52 - [Graph] ====== END SORTED NODES
-2025-09-08 19:06:34 TRACE Graph:52 - [Graph] ADDING NODE BaseTest.tearDown()[pri:0, instance:null] 676218306
-2025-09-08 19:06:34 TRACE Graph:52 - [Graph] ================ SORTING
-2025-09-08 19:06:34 TRACE Graph:52 - [Graph] =============== DONE SORTING
-2025-09-08 19:06:34 TRACE Graph:52 - [Graph] ====== SORTED NODES
-2025-09-08 19:06:34 TRACE Graph:52 - [Graph] ====== END SORTED NODES
-2025-09-08 19:06:34 TRACE Graph:52 - [Graph] ADDING NODE BaseTest.setup(java.lang.String,java.lang.String)[pri:0, instance:null] -1308580327
-2025-09-08 19:06:34 TRACE Graph:52 - [Graph] ================ SORTING
-2025-09-08 19:06:34 TRACE Graph:52 - [Graph] =============== DONE SORTING
-2025-09-08 19:06:34 TRACE Graph:52 - [Graph] ====== SORTED NODES
-2025-09-08 19:06:34 TRACE Graph:52 - [Graph] ====== END SORTED NODES
-2025-09-08 19:06:34 TRACE Graph:52 - [Graph] ADDING NODE BaseTest.tearDown()[pri:0, instance:null] 676218306
-2025-09-08 19:06:34 TRACE Graph:52 - [Graph] ================ SORTING
-2025-09-08 19:06:34 TRACE Graph:52 - [Graph] =============== DONE SORTING
-2025-09-08 19:06:34 TRACE Graph:52 - [Graph] ====== SORTED NODES
-2025-09-08 19:06:34 TRACE Graph:52 - [Graph] ====== END SORTED NODES
-2025-09-08 19:06:34 TRACE Graph:52 - [Graph] ADDING NODE TC003_DDTLoginTest.verify_Login(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC003_DDTLoginTest@7216fb24] 1235560969
-2025-09-08 19:06:34 TRACE Graph:52 - [Graph] ================ SORTING
-2025-09-08 19:06:34 TRACE Graph:52 - [Graph] =============== DONE SORTING
-2025-09-08 19:06:34 TRACE Graph:52 - [Graph] ====== SORTED NODES
-2025-09-08 19:06:34 TRACE Graph:52 - [Graph] ====== END SORTED NODES
-2025-09-08 19:06:42 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
-2025-09-08 19:06:42 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
-2025-09-08 19:06:42 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
-2025-09-08 19:06:42 TRACE XBeanDebug:199 - Loading type system org.apache.poi.schemas.ooxml.system.ooxml
-2025-09-08 19:06:42 TRACE XBeanDebug:199 - Loading type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
-2025-09-08 19:06:42 TRACE XBeanDebug:199 - Loading type system org.apache.xmlbeans.metadata.system.sXMLLANG
-2025-09-08 19:06:42 TRACE XBeanDebug:199 - Loading type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
-2025-09-08 19:06:42 TRACE XBeanDebug:199 - Loading type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
-2025-09-08 19:06:42 TRACE XBeanDebug:237 - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
-2025-09-08 19:06:42 TRACE XBeanDebug:209 - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
-2025-09-08 19:06:42 TRACE XBeanDebug:237 - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
-2025-09-08 19:06:43 TRACE XBeanDebug:209 - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
-2025-09-08 19:06:43 TRACE XBeanDebug:237 - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLLANG
-2025-09-08 19:06:43 TRACE XBeanDebug:209 - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLLANG
-2025-09-08 19:06:43 TRACE XBeanDebug:237 - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
-2025-09-08 19:06:43 TRACE XBeanDebug:209 - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
-2025-09-08 19:06:43 TRACE XBeanDebug:237 - Reading unresolved handles for type system org.apache.poi.schemas.ooxml.system.ooxml
-2025-09-08 19:06:43 TRACE XBeanDebug:209 - Finished loading type system org.apache.poi.schemas.ooxml.system.ooxml
-2025-09-08 19:06:43 TRACE XBeanDebug:946 - Resolving type for handle themefd26doctype
-2025-09-08 19:06:43 TRACE XBeanDebug:946 - Resolving type for handle stylesheet5d8bdoctype
-2025-09-08 19:06:43 TRACE XBeanDebug:946 - Resolving type for handle ctstylesheet4257type
-2025-09-08 19:06:43 TRACE XBeanDebug:946 - Resolving type for handle ctfonts6623type
-2025-09-08 19:06:43 TRACE XBeanDebug:946 - Resolving type for handle ctfont14d8type
-2025-09-08 19:06:43 TRACE XBeanDebug:946 - Resolving type for handle ctfills2c6ftype
-2025-09-08 19:06:43 TRACE XBeanDebug:946 - Resolving type for handle ctfill550ctype
-2025-09-08 19:06:43 TRACE XBeanDebug:946 - Resolving type for handle ctborders0d66type
-2025-09-08 19:06:43 TRACE XBeanDebug:946 - Resolving type for handle ctborderf935type
-2025-09-08 19:06:43 TRACE XBeanDebug:946 - Resolving type for handle ctcellxfs1322type
-2025-09-08 19:06:43 TRACE XBeanDebug:946 - Resolving type for handle ctxf97f7type
-2025-09-08 19:06:43 TRACE XBeanDebug:946 - Resolving type for handle ctcellstylexfsa81ftype
-2025-09-08 19:06:43 TRACE XBeanDebug:946 - Resolving type for handle ctdxfsb26atype
-2025-09-08 19:06:43 TRACE XBeanDebug:946 - Resolving type for handle cttablestyles872ftype
-2025-09-08 19:06:43 TRACE XBeanDebug:946 - Resolving type for handle sstf81fdoctype
-2025-09-08 19:06:43 TRACE XBeanDebug:946 - Resolving type for handle ctsst44f3type
-2025-09-08 19:06:43 TRACE XBeanDebug:946 - Resolving type for handle ctrsta472type
-2025-09-08 19:06:43 TRACE XBeanDebug:946 - Resolving type for handle workbookec17doctype
-2025-09-08 19:06:43 TRACE XBeanDebug:946 - Resolving type for handle ctworkbook83c3type
-2025-09-08 19:06:43 TRACE XBeanDebug:946 - Resolving type for handle ctsheets49fdtype
-2025-09-08 19:06:43 TRACE XBeanDebug:946 - Resolving type for handle ctsheet4dbetype
-2025-09-08 19:06:43 TRACE XBeanDebug:946 - Resolving type for handle strelationshipid1e94type
-2025-09-08 19:06:43 TRACE XBeanDebug:946 - Resolving type for handle worksheetf539doctype
-2025-09-08 19:06:43 TRACE XBeanDebug:946 - Resolving type for handle ctworksheet530dtype
-2025-09-08 19:06:43 TRACE XBeanDebug:946 - Resolving type for handle ctcols627ctype
-2025-09-08 19:06:43 TRACE XBeanDebug:946 - Resolving type for handle ctcola95ftype
-2025-09-08 19:06:43 TRACE XBeanDebug:946 - Resolving type for handle ctsheetdata8408type
-2025-09-08 19:06:43 TRACE XBeanDebug:946 - Resolving type for handle ctrowdd39type
-2025-09-08 19:06:43 TRACE XBeanDebug:946 - Resolving type for handle ctcell842btype
-2025-09-08 19:06:43 TRACE XBeanDebug:946 - Resolving type for handle stcellrefe4e0type
-2025-09-08 19:06:43 TRACE XBeanDebug:946 - Resolving type for handle cthyperlinks6416type
-2025-09-08 19:06:43 TRACE XBeanDebug:946 - Resolving type for handle cthyperlink0c85type
-2025-09-08 19:06:43 TRACE XBeanDebug:946 - Resolving type for handle stxstringf179type
-2025-09-08 19:06:43 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
-2025-09-08 19:06:43 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
-2025-09-08 19:06:43 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
-5
-2025-09-08 19:06:43 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
-2025-09-08 19:06:43 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
-2025-09-08 19:06:43 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
-2025-09-08 19:06:43 TRACE XBeanDebug:946 - Resolving type for handle stcelltypebf95type
-2025-09-08 19:06:43 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
-2025-09-08 19:06:43 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
-2025-09-08 19:06:43 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
-2025-09-08 19:06:43 TRACE XBeanDebug:946 - Resolving type for handle stcellstylexfid70c7type
-2025-09-08 19:06:43 TRACE XBeanDebug:946 - Resolving type for handle stnumfmtid76fbtype
-2025-09-08 19:06:43 TRACE XBeanDebug:946 - Resolving type for handle ctworkbookpr03a5type
-2025-09-08 19:06:43 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
-2025-09-08 19:06:43 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
-2025-09-08 19:06:43 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
-2025-09-08 19:06:43 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
-2025-09-08 19:06:43 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
-2025-09-08 19:06:43 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
-2025-09-08 19:06:43 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
-2025-09-08 19:06:43 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
-2025-09-08 19:06:43 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
-2025-09-08 19:06:43 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
-2025-09-08 19:06:43 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
-2025-09-08 19:06:43 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
-2025-09-08 19:06:43 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
-2025-09-08 19:06:43 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
-2025-09-08 19:06:43 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
-2025-09-08 19:06:43 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
-2025-09-08 19:06:43 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
-2025-09-08 19:06:43 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
-2025-09-08 19:06:43 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
-2025-09-08 19:06:43 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
-2025-09-08 19:06:43 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
-2025-09-08 19:06:43 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
-2025-09-08 19:06:43 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
-2025-09-08 19:06:43 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
-2025-09-08 19:06:43 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
-2025-09-08 19:06:43 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
-2025-09-08 19:06:43 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
-2025-09-08 19:06:43 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
-2025-09-08 19:06:43 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
-2025-09-08 19:06:43 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
-2025-09-08 19:06:43 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
-2025-09-08 19:06:43 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
-2025-09-08 19:06:43 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
-2025-09-08 19:06:43 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
-2025-09-08 19:06:43 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
-2025-09-08 19:06:43 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
-2025-09-08 19:06:43 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
-2025-09-08 19:06:43 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
-2025-09-08 19:06:43 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
-2025-09-08 19:06:43 INFO  TC003_DDTLoginTest:17 - ***** Starting verify_DDTLogin *****
-2025-09-08 19:06:44 INFO  TC003_DDTLoginTest:23 - Clicked Myaccount Link...
-2025-09-08 19:06:44 INFO  TC003_DDTLoginTest:25 - Clicked Login...
-2025-09-08 19:06:44 INFO  TC003_DDTLoginTest:29 - Entered email: abababnc@gmail.com
-2025-09-08 19:06:44 INFO  TC003_DDTLoginTest:31 - Entered password: 1234
-2025-09-08 19:06:45 INFO  TC003_DDTLoginTest:33 - Clicked Login...
-2025-09-08 19:06:45 INFO  TC003_DDTLoginTest:45 - ***** Finished verify_Login *****
+  <testcase name="LoginTest" classname="testCases.TC001_AccountRegisterationTest" time="16.631">
+    <failure message="null" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.fail(Assert.java:116)
+	at testCases.TC001_AccountRegisterationTest.LoginTest(TC001_AccountRegisterationTest.java:48)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+    <system-out><![CDATA[2025-09-09 16:57:11 DEBUG TestNG:82 - suiteXmlPath: "C:\Users\akash\Selenium_Cognizant\opencart_cucumber\master.xml"
+2025-09-09 16:57:11 TRACE Graph:52 - [Graph] ADDING NODE BaseTest.setup(java.lang.String,java.lang.String)[pri:0, instance:null] -1308580327
+2025-09-09 16:57:11 TRACE Graph:52 - [Graph] ================ SORTING
+2025-09-09 16:57:11 TRACE Graph:52 - [Graph] =============== DONE SORTING
+2025-09-09 16:57:11 TRACE Graph:52 - [Graph] ====== SORTED NODES
+2025-09-09 16:57:11 TRACE Graph:52 - [Graph] ====== END SORTED NODES
+2025-09-09 16:57:11 TRACE Graph:52 - [Graph] ADDING NODE BaseTest.tearDown()[pri:0, instance:null] 676218306
+2025-09-09 16:57:11 TRACE Graph:52 - [Graph] ================ SORTING
+2025-09-09 16:57:11 TRACE Graph:52 - [Graph] =============== DONE SORTING
+2025-09-09 16:57:11 TRACE Graph:52 - [Graph] ====== SORTED NODES
+2025-09-09 16:57:11 TRACE Graph:52 - [Graph] ====== END SORTED NODES
+2025-09-09 16:57:11 TRACE Graph:52 - [Graph] ADDING NODE BaseTest.setup(java.lang.String,java.lang.String)[pri:0, instance:null] -1308580327
+2025-09-09 16:57:11 TRACE Graph:52 - [Graph] ================ SORTING
+2025-09-09 16:57:11 TRACE Graph:52 - [Graph] =============== DONE SORTING
+2025-09-09 16:57:11 TRACE Graph:52 - [Graph] ====== SORTED NODES
+2025-09-09 16:57:11 TRACE Graph:52 - [Graph] ====== END SORTED NODES
+2025-09-09 16:57:11 TRACE Graph:52 - [Graph] ADDING NODE BaseTest.tearDown()[pri:0, instance:null] 676218306
+2025-09-09 16:57:11 TRACE Graph:52 - [Graph] ================ SORTING
+2025-09-09 16:57:11 TRACE Graph:52 - [Graph] =============== DONE SORTING
+2025-09-09 16:57:11 TRACE Graph:52 - [Graph] ====== SORTED NODES
+2025-09-09 16:57:11 TRACE Graph:52 - [Graph] ====== END SORTED NODES
+2025-09-09 16:57:11 TRACE Graph:52 - [Graph] ADDING NODE BaseTest.setup(java.lang.String,java.lang.String)[pri:0, instance:null] -1308580327
+2025-09-09 16:57:11 TRACE Graph:52 - [Graph] ================ SORTING
+2025-09-09 16:57:11 TRACE Graph:52 - [Graph] =============== DONE SORTING
+2025-09-09 16:57:11 TRACE Graph:52 - [Graph] ====== SORTED NODES
+2025-09-09 16:57:11 TRACE Graph:52 - [Graph] ====== END SORTED NODES
+2025-09-09 16:57:11 TRACE Graph:52 - [Graph] ADDING NODE BaseTest.tearDown()[pri:0, instance:null] 676218306
+2025-09-09 16:57:11 TRACE Graph:52 - [Graph] ================ SORTING
+2025-09-09 16:57:11 TRACE Graph:52 - [Graph] =============== DONE SORTING
+2025-09-09 16:57:11 TRACE Graph:52 - [Graph] ====== SORTED NODES
+2025-09-09 16:57:11 TRACE Graph:52 - [Graph] ====== END SORTED NODES
+2025-09-09 16:57:11 TRACE Graph:52 - [Graph] ADDING NODE TC001_AccountRegisterationTest.LoginTest()[pri:0, instance:testCases.TC001_AccountRegisterationTest@6ff65192] -892292503
+2025-09-09 16:57:11 TRACE Graph:52 - [Graph] ADDING NODE TC002_LoginTest.verify_Login()[pri:0, instance:testCases.TC002_LoginTest@2ceb80a1] -1446326527
+2025-09-09 16:57:11 TRACE Graph:52 - [Graph] ================ SORTING
+2025-09-09 16:57:11 TRACE Graph:52 - [Graph] =============== DONE SORTING
+2025-09-09 16:57:11 TRACE Graph:52 - [Graph] ====== SORTED NODES
+2025-09-09 16:57:11 TRACE Graph:52 - [Graph] ====== END SORTED NODES
+2025-09-09 16:57:23 INFO  TC001_AccountRegisterationTest:15 - ***** Starting TC001_AccountRegisterationTest *****
+2025-09-09 16:57:23 INFO  TC001_AccountRegisterationTest:21 - Clicked Myaccount...
+2025-09-09 16:57:24 INFO  TC001_AccountRegisterationTest:23 - Clicked Register...
+2025-09-09 16:57:24 INFO  TC001_AccountRegisterationTest:27 - Entered first name...
+2025-09-09 16:57:24 INFO  TC001_AccountRegisterationTest:29 - Entered last name...
+2025-09-09 16:57:24 INFO  TC001_AccountRegisterationTest:31 - Entered email...
+2025-09-09 16:57:24 INFO  TC001_AccountRegisterationTest:33 - Entered phonenumber
+2025-09-09 16:57:24 INFO  TC001_AccountRegisterationTest:37 - Entered password and confirm password
+2025-09-09 16:57:24 INFO  TC001_AccountRegisterationTest:39 - Clicked Privacy policy 
+2025-09-09 16:57:25 INFO  TC001_AccountRegisterationTest:41 - Clicked Continue 
+2025-09-09 16:57:40 DEBUG TC001_AccountRegisterationTest:47 - ***** Failed TC001_AccountRegisterationTest *****
 ]]></system-out>
-    <system-err><![CDATA[2025-09-08T13:36:34.499483600Z main INFO Starting configuration XmlConfiguration[location=C:\Users\akash\Selenium_Cognizant\opencart_cucumber\target\test-classes\log4j2.xml, lastModified=2025-09-08T13:09:23.187Z]...
-2025-09-08T13:36:34.499483600Z main INFO Configuration XmlConfiguration[location=C:\Users\akash\Selenium_Cognizant\opencart_cucumber\target\test-classes\log4j2.xml, lastModified=2025-09-08T13:09:23.187Z] started.
-2025-09-08T13:36:34.505925800Z main INFO Stopping configuration org.apache.logging.log4j.core.config.DefaultConfiguration@16ec5519...
-2025-09-08T13:36:34.505925800Z main INFO Configuration org.apache.logging.log4j.core.config.DefaultConfiguration@16ec5519 stopped.
+    <system-err><![CDATA[2025-09-09T11:27:11.412741100Z main INFO Starting configuration XmlConfiguration[location=C:\Users\akash\Selenium_Cognizant\opencart_cucumber\target\test-classes\log4j2.xml, lastModified=2025-09-08T13:09:23.187Z]...
+2025-09-09T11:27:11.414759700Z main INFO Configuration XmlConfiguration[location=C:\Users\akash\Selenium_Cognizant\opencart_cucumber\target\test-classes\log4j2.xml, lastModified=2025-09-08T13:09:23.187Z] started.
+2025-09-09T11:27:11.418789Z main INFO Stopping configuration org.apache.logging.log4j.core.config.DefaultConfiguration@16ec5519...
+2025-09-09T11:27:11.418789Z main INFO Configuration org.apache.logging.log4j.core.config.DefaultConfiguration@16ec5519 stopped.
 ]]></system-err>
   </testcase>
-  <testcase name="verify_Login[aka@gmail.com, 1234, Valid](2)" classname="testCases.TC003_DDTLoginTest" time="1.627">
-    <system-out><![CDATA[2025-09-08 19:06:46 INFO  TC003_DDTLoginTest:17 - ***** Starting verify_DDTLogin *****
-2025-09-08 19:06:46 INFO  TC003_DDTLoginTest:23 - Clicked Myaccount Link...
-2025-09-08 19:06:46 INFO  TC003_DDTLoginTest:25 - Clicked Login...
-2025-09-08 19:06:46 INFO  TC003_DDTLoginTest:29 - Entered email: aka@gmail.com
-2025-09-08 19:06:46 INFO  TC003_DDTLoginTest:31 - Entered password: 1234
-2025-09-08 19:06:46 INFO  TC003_DDTLoginTest:33 - Clicked Login...
-2025-09-08 19:06:47 INFO  TC003_DDTLoginTest:45 - ***** Finished verify_Login *****
+  <testcase name="verify_Login" classname="testCases.TC002_LoginTest" time="2.392">
+    <system-out><![CDATA[2025-09-09 16:57:45 INFO  TC002_LoginTest:16 - ***** Starting verify_Login *****
+2025-09-09 16:57:45 INFO  TC002_LoginTest:22 - Clicked Myaccount...
+2025-09-09 16:57:45 INFO  TC002_LoginTest:24 - Clicked Login...
+2025-09-09 16:57:45 INFO  TC002_LoginTest:28 - Entered email...
+2025-09-09 16:57:45 INFO  TC002_LoginTest:30 - Entered password... 
+2025-09-09 16:57:46 INFO  TC002_LoginTest:32 - Clicked Login...
+2025-09-09 16:57:47 INFO  TC002_LoginTest:44 - ***** Finished verify_Login *****
 ]]></system-out>
-  </testcase>
-  <testcase name="verify_Login[aka@gmail.com, 1234567, Invalid](3)" classname="testCases.TC003_DDTLoginTest" time="15.383">
-    <failure message="null" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: null
-	at org.testng.Assert.fail(Assert.java:111)
-	at org.testng.Assert.fail(Assert.java:116)
-	at testCases.TC003_DDTLoginTest.verify_Login(TC003_DDTLoginTest.java:50)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+    <system-err><![CDATA[Sep 09, 2025 4:57:40 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
+WARNING: Connection reset
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+	at java.net.http/jdk.internal.net.http.SocketTube.readAvailable(SocketTube.java:1170)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.read(SocketTube.java:833)
+	at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowTask.run(SocketTube.java:181)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:230)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:303)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:256)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.signalReadable(SocketTube.java:774)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$ReadEvent.signalEvent(SocketTube.java:957)
+	at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowEvent.handle(SocketTube.java:253)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.handleEvent(HttpClientImpl.java:979)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.lambda$run$3(HttpClientImpl.java:934)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:741)
-	at org.testng.TestRunner.run(TestRunner.java:616)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-]]></failure>
-    <system-out><![CDATA[2025-09-08 19:06:47 INFO  TC003_DDTLoginTest:17 - ***** Starting verify_DDTLogin *****
-2025-09-08 19:06:47 INFO  TC003_DDTLoginTest:23 - Clicked Myaccount Link...
-2025-09-08 19:06:47 INFO  TC003_DDTLoginTest:25 - Clicked Login...
-2025-09-08 19:07:02 DEBUG TC003_DDTLoginTest:49 - no such element: Unable to locate element: {"method":"css selector","selector":"#input\-email"}
-  (Session info: chrome=139.0.7258.155)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.35.0', revision: '1c58e5028b'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [4bd59c8c8c0f82dd9da649aba7cb5026, findElement {value=input-email, using=id}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.155, chrome: {chromedriverVersion: 139.0.7258.154 (9e0d6b2b47f..., userDataDir: C:\Users\akash\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51198}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51198/devtoo..., se:cdpVersion: 139.0.7258.155, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 4bd59c8c8c0f82dd9da649aba7cb5026
-]]></system-out>
-  </testcase>
-  <testcase name="verify_Login[aka@gmail.com, 1234567, Invalid](4)" classname="testCases.TC003_DDTLoginTest" time="15.755">
-    <failure message="null" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: null
-	at org.testng.Assert.fail(Assert.java:111)
-	at org.testng.Assert.fail(Assert.java:116)
-	at testCases.TC003_DDTLoginTest.verify_Login(TC003_DDTLoginTest.java:42)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:741)
-	at org.testng.TestRunner.run(TestRunner.java:616)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-]]></failure>
-    <system-out><![CDATA[2025-09-08 19:07:03 INFO  TC003_DDTLoginTest:17 - ***** Starting verify_DDTLogin *****
-2025-09-08 19:07:03 INFO  TC003_DDTLoginTest:23 - Clicked Myaccount Link...
-2025-09-08 19:07:03 INFO  TC003_DDTLoginTest:25 - Clicked Login...
-2025-09-08 19:07:03 INFO  TC003_DDTLoginTest:29 - Entered email: aka@gmail.com
-2025-09-08 19:07:03 INFO  TC003_DDTLoginTest:31 - Entered password: 1234567
-2025-09-08 19:07:03 INFO  TC003_DDTLoginTest:33 - Clicked Login...
-2025-09-08 19:07:18 DEBUG TC003_DDTLoginTest:41 - ***** Login Failed with email: aka@gmail.com Password: 1234567
-]]></system-out>
-  </testcase>
-  <testcase name="verify_Login[abababnc@gmail.com, 1234, Valid](5)" classname="testCases.TC003_DDTLoginTest" time="2.01">
-    <system-out><![CDATA[2025-09-08 19:07:18 INFO  TC003_DDTLoginTest:17 - ***** Starting verify_DDTLogin *****
-2025-09-08 19:07:18 INFO  TC003_DDTLoginTest:23 - Clicked Myaccount Link...
-2025-09-08 19:07:19 INFO  TC003_DDTLoginTest:25 - Clicked Login...
-2025-09-08 19:07:19 INFO  TC003_DDTLoginTest:29 - Entered email: abababnc@gmail.com
-2025-09-08 19:07:19 INFO  TC003_DDTLoginTest:31 - Entered password: 1234
-2025-09-08 19:07:19 INFO  TC003_DDTLoginTest:33 - Clicked Login...
-2025-09-08 19:07:20 INFO  TC003_DDTLoginTest:45 - ***** Finished verify_Login *****
-]]></system-out>
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:934)
+
+]]></system-err>
   </testcase>
 </testsuite>

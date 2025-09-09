@@ -83,7 +83,7 @@ public class BaseTest {
 				return;
 			}
 
-			driver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), cp);
+			driver = new RemoteWebDriver(new URL("http://localhost:8080/wd/hub"), cp);
 
 		} else if (p.getProperty("execution_env").equalsIgnoreCase("local")) {
 
